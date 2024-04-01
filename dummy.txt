@@ -1,0 +1,1 @@
+<path id="a_path" d="M671.81,121.56l-104,173s-28-39-5-98,114.34-107,123.5-80.5c9,26-49.5,180.5-49.5,180.5l67.5-35.5" transform="translate(31.09 32.56)" fill="none" stroke="#52e0ed" stroke-miterlimit="10" stroke-width="42" style="stroke-dashoffset: 0; stroke-dasharray: none;"></path>
