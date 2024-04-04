@@ -468,6 +468,28 @@ img {
     color: #FCFAF8;
 }
 
+.all-project-btn {
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2vh 0;
+    margin: 0 auto;
+    border-radius: 56px;
+    margin-bottom: 3rem;
+}
+
+button {
+    border: none;
+    background: transparent;
+    font-size: 3.2vw;
+}
+
+.all-project-btn:hover {
+    background-color: #253B39;
+    color: #fff;
+    transition: all .3s linear;
+}
+
 /* media */
 
 @media screen and (max-width:767px) {
@@ -584,6 +606,7 @@ img {
     }
 
     .fotter h2 {
+        text-align: center;
         font-size: 2.3vh;
     }
 
@@ -593,6 +616,18 @@ img {
 
     .display {
         display: none;
+    }
+
+    .all-project-btn {
+        border: 1px solid white;
+    }
+
+    button {
+        color: #fff;
+    }
+
+    .about-heading {
+        margin-top: 2rem;
     }
 
 }
