@@ -1,3 +1,5 @@
+import data from "./src/data.js";
+
 function locomotive() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -88,6 +90,9 @@ function loadingAnimation() {
         delay: -.4,
         ease: "Circ.easeInOut",
         onComplete: function () {
+            tl.to('#main', {
+                zIndex: '9999',
+            })
             svgAnimation();
             animateHomepage();
         }
@@ -195,6 +200,15 @@ gsap.from('.about-container', {
         // markers: true,
     }
 })
+
+const click = document.querySelector('.click');
+click.addEventListener('click', function () {
+    console.log('Avinash');
+})
+
+
+console.log(data);
+
 
 
 
