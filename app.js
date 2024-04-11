@@ -1,4 +1,5 @@
-import data from "./src/data.js";
+import get from "./src/get.js";
+import fetchData from "./src/fetch.js";
 
 function locomotive() {
     gsap.registerPlugin(ScrollTrigger);
@@ -201,13 +202,7 @@ gsap.from('.about-container', {
     }
 })
 
-const click = document.querySelector('.click');
-click.addEventListener('click', function () {
-    console.log('Avinash');
-})
-
-
-console.log(data);
+fetchData();
 
 
 
