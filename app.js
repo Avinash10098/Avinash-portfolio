@@ -1,5 +1,3 @@
-import get from "./src/get.js";
-import fetchData from "./src/fetch.js";
 
 function locomotive() {
     gsap.registerPlugin(ScrollTrigger);
@@ -201,8 +199,6 @@ gsap.from('.about-container', {
         // markers: true,
     }
 })
-
-fetchData();
 
 
 
