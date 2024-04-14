@@ -507,8 +507,6 @@ button {
 
 .single-project {
     min-height: 100%;
-    background: black;
-    display: grid;
     text-decoration: none;
     width: 100%;
 }
@@ -518,7 +516,7 @@ button {
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2vh 3vw;
+    gap: 12vh 3vw;
 }
 
 /* .projects-section-container {
@@ -568,7 +566,7 @@ button {
 .single-project h4 {
     text-align: center;
     font-size: 2.2vw;
-    color: white;
+    color: black;
     margin-bottom: 0.5rem;
 }
 
