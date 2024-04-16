@@ -501,8 +501,9 @@ button {
 /* project page css start */
 .projects-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: #FCFAF8;
+    background-color: red;
 }
 
 .single-project {
@@ -519,6 +520,93 @@ button {
     gap: 12vh 3vw;
 }
 
+.dark-mode {
+    height: 2rem;
+    width: 2rem;
+}
+
+.bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5vh;
+    padding: 3vh 3vw;
+    align-items: center;
+}
+
+.heading-projects {
+    text-align: center;
+    height: 42vh;
+}
+
+.heading-projects h1 {
+    font-size: 14vw;
+}
+
+.under-image {
+    height: 79%;
+    padding: 1.2vh;
+}
+
+.cool-site {
+    background-color: #FDC52C;
+    padding: 2vh 3vw;
+    /* width: fit-content; */
+    border-radius: 12px;
+    rotate: -30deg;
+    position: absolute;
+    left: 61vw;
+    top: 18vw;
+}
+
+.section-project {
+    min-height: 100vh;
+    background: #F7F6F9;
+    position: relative;
+    padding: 1vh;
+}
+
+.project-under {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: fit-content;
+    width: 90vw;
+    margin: auto;
+    gap: 2vh 3vw;
+    padding: 6vh 3vw;
+}
+
+.project-under-container {
+    height: 100%;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.project-number-container {
+    background-color: white;
+    text-align: center;
+}
+
+.project-number-container p {
+    color: black;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* toggel classes */
+.black {
+    background-color: black;
+}
+
+.addBlack {
+    background-color: black;
+}
+
+/* just begin */
+
+
 /* .projects-section-container {
     height: 100%;
     width: 100%;
@@ -531,6 +619,7 @@ button {
 .single-project-heading h1 {
     text-align: center;
     font-size: 3.3vw;
+    color: #0D0D0D;
 }
 
 .undeline {
@@ -588,6 +677,34 @@ button {
 }
 
 /* project page css end */
+
+/* page loading */
+.page-loading {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 999; */
+    background-color: #e8f3f3;
+}
+
+.page-loading h1 {
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.bar i {
+    font-size: 1.7rem;
+}
 
 /* media */
 

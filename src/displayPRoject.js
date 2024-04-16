@@ -1,14 +1,17 @@
 import get from "./get.js";
-const Acontainer = get('.a-container');
+const Acontainer = get('.project-under');
 const displayProject = (data) => {
     console.log(data);
     Acontainer.innerHTML = data.map((red) => {
         const { name, img, link } = red;
-        return `<a href="${link}"
-                        class="single-project">
-                        <img class="single-project-img" src="${img}" alt="">
-                        <h4 class="single-project-name">${name}</h4>
-                    </a>`
+        return ` <div class="project-number-container">
+                    <a href="${link}" class="project-under-container">
+                        <div class="under-image">
+                            <img src="${img}" alt="">
+                        </div>
+                        <p class="name">${name}</p>
+                    </a>
+                </div>`
     }).join(' ');
 
 }
