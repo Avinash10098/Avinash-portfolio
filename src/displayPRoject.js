@@ -1,7 +1,10 @@
 import get from "./get.js";
+// import { hideLoading } from "./togalLoading.js";
 const Acontainer = get('.project-under');
+
 const displayProject = (data) => {
     console.log(data);
+    // hideLoading();
     Acontainer.innerHTML = data.map((red) => {
         const { name, img, link } = red;
         return ` <div class="project-number-container">

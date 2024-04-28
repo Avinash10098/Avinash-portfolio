@@ -152,9 +152,6 @@ function svgAnimation() {
         ease: Expo.easeIn,
     })
 }
-
-
-
 function sectionAbout() {
     gsap.to('.about-heading .child', {
         y: 0,
