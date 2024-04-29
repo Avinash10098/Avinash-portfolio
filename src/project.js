@@ -19,7 +19,7 @@ function navbarAnimation() {
         delay: 1,
         duration: 1,
         x: 0,
-        stagger: 0.2,
+        stagger: 0.08,
         onComplete: function () {
             navbarBtn.style.display = "none";
             closeNavbar.style.display = "block";
@@ -28,7 +28,6 @@ function navbarAnimation() {
 }
 const bar = get('.bar');
 navbarBtn.addEventListener('click', () => {
-    bar.classList.add('fixed');
     navbarAnimation();
 })
 closeNavbar.addEventListener('click', () => {
@@ -40,7 +39,6 @@ closeNavbar.addEventListener('click', () => {
         onComplete: function () {
             navbarBtn.style.display = "block";
             closeNavbar.style.display = "none";
-            bar.classList.remove('fixed');
         }
     })
 })
