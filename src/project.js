@@ -26,7 +26,9 @@ function navbarAnimation() {
         }
     })
 }
+const bar = get('.bar');
 navbarBtn.addEventListener('click', () => {
+    bar.classList.add('fixed');
     navbarAnimation();
 })
 closeNavbar.addEventListener('click', () => {
@@ -38,9 +40,8 @@ closeNavbar.addEventListener('click', () => {
         onComplete: function () {
             navbarBtn.style.display = "block";
             closeNavbar.style.display = "none";
+            bar.classList.remove('fixed');
         }
     })
-
-
 })
 
