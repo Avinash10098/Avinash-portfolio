@@ -2,7 +2,8 @@ import fetchData from "./fetch.js";
 import get from "./get.js";
 import displayProject from "./displayPRoject.js";
 import darkModeFunction from "./darkmode.js";
-const url = "https://api-rxb0.onrender.com/api/get";
+// const url = "https://api-rxb0.onrender.com/api/get";
+const url = "https://www.maratho.me/api/get";
 // fetchData(url);
 // const pageLoading = get('.page-loading');
 const getdata = async (url) => {
