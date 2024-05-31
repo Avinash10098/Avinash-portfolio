@@ -606,22 +606,16 @@ img {
     color: #E6E5E3;
 }
 
-/* #allProjectBtn:hover {
-    color: #E6E5E3;
-}
-
-.all-project-btn:hover {
-    background-color: #253B39;
-    color: #fff;
-    transition: all .3s linear;
-} */
-
 /* project page css start */
 .projects-section {
     width: 100%;
     min-height: 50vh;
     background-color: #FCFAF8;
     background-color: red;
+}
+
+.project-number-container:hover {
+    scale: 1.05;
 }
 
 .single-project {
@@ -722,7 +716,8 @@ img {
 }
 
 .project-number-container {
-    background-color: white;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: #FFFFFF;
     text-align: center;
 }
 

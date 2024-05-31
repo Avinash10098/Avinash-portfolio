@@ -47,6 +47,7 @@ dummy text
                         <p class="name">Avinash</p>
                     </a>
                 </div>
+              </div>
 ///////////////////////////////api content/////////////////////////////////////////
 {
   "_id": "661acc2131efabccc5b2cfb3",
